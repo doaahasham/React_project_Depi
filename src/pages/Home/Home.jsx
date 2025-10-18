@@ -15,7 +15,7 @@ const Home = () => {
     <section className="relative h-screen flex items-center">
       <div className="absolute inset-0">
         <img
-          src="https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=1600"
+          src="/bg.jpg"
           alt="Hero Background"
           className="w-full h-full object-cover opacity-20"
         />
@@ -36,7 +36,7 @@ const Home = () => {
                 color="black"
                 size="lg"
                 className="rounded-md flex items-center gap-2"
-                onClick={() => navigate("/shop")}
+                onClick={() => navigate("/Products")}
               >
                 Shop Now
                 <GoArrowRight />
@@ -49,7 +49,7 @@ const Home = () => {
               color="black"
               size="lg"
               className="rounded-md"
-              onClick={() => navigate("/about")}
+              onClick={() => navigate("/About")}
             >
               Learn More
             </Button>
@@ -168,7 +168,7 @@ const Home = () => {
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           <div
-            onClick={() => navigate("/products/footwear")}
+            onClick={() => navigate("/Products")}
             className="group relative h-64 rounded-lg overflow-hidden cursor-pointer"
           >
             <img
@@ -183,7 +183,7 @@ const Home = () => {
           </div>
 
           <div
-            onClick={() => navigate("/products/fitness")}
+            onClick={() => navigate("/Products")}
             className="group relative h-64 rounded-lg overflow-hidden cursor-pointer"
           >
             <img
@@ -198,7 +198,7 @@ const Home = () => {
           </div>
 
           <div
-            onClick={() => navigate("/products/team-sports")}
+            onClick={() => navigate("/Products")}
             className="group relative h-64 rounded-lg overflow-hidden cursor-pointer"
           >
             <img
@@ -213,7 +213,7 @@ const Home = () => {
           </div>
 
           <div
-            onClick={() => navigate("/products/outdoor")}
+            onClick={() => navigate("/Products")}
             className="group relative h-64 rounded-lg overflow-hidden cursor-pointer"
           >
             <img
@@ -237,7 +237,7 @@ const Home = () => {
           <h3 className="text-gray-600">Check out our best-selling sports equipment</h3>
           </div>
           <button
-            onClick={() => navigate("/products")}
+            onClick={() => navigate("/Products")}
             className="flex content-center items-center gap-3 px-5 py-2 bg-white text-black rounded-md hover:bg-gray-200 transition" 
           >
             View All
@@ -248,7 +248,7 @@ const Home = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4  gap-6 p-4">
      
       <div
-        onClick={() => navigate("/product/Footwear")}
+        onClick={() => navigate("/Products")}
         className="group bg-card rounded-lg border overflow-hidden cursor-pointer transition-all hover:shadow-lg hover:-translate-y-1"
       >
         <div className="relative aspect-square overflow-hidden bg-muted">
@@ -293,7 +293,7 @@ const Home = () => {
 
       
       <div
-        onClick={() => navigate("/product/Fitness")}
+        onClick={() => navigate("/Products")}
         className="group bg-card rounded-lg border overflow-hidden cursor-pointer transition-all hover:shadow-lg hover:-translate-y-1"
       >
         <div className="relative aspect-square overflow-hidden bg-muted">
@@ -334,7 +334,7 @@ const Home = () => {
 
       
       <div
-        onClick={() => navigate("/product/Strength")}
+        onClick={() => navigate("/Products")}
         className="group bg-card rounded-lg border overflow-hidden cursor-pointer transition-all hover:shadow-lg hover:-translate-y-1"
       >
         <div className="relative aspect-square overflow-hidden bg-muted">
@@ -374,7 +374,7 @@ const Home = () => {
       </div>
 
       <div
-        onClick={() => navigate("/product/Cycling")}
+        onClick={() => navigate("/Products")}
         className="group bg-card rounded-lg border overflow-hidden cursor-pointer transition-all hover:shadow-lg hover:-translate-y-1"
       >
         <div className="relative aspect-square overflow-hidden bg-muted">
