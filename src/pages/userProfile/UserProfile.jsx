@@ -6,7 +6,7 @@ import {
 } from "@material-tailwind/react";
 import { useEffect, useState } from "react";
 
-const Profile = () => {
+const UserProfile = () => {
   const [user, setUser] = useState();
   useEffect(() => {
     const id = localStorage.getItem("id");
@@ -61,4 +61,4 @@ const Profile = () => {
   );
 };
 
-export default Profile;
+export default UserProfile;

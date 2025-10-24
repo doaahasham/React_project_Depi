@@ -5,7 +5,7 @@ import Signup from './pages/signup/Signup';
 import Notfound from './pages/notfound/Notfound';
 import Login from './pages/login/Login';
 import Home from './pages/Home/Home';
-import Profile from './pages/profile/profile';
+import UserProfile from './pages/userProfile/UserProfile';
 function App() {
   const [count, setCount] = useState(0)
 
@@ -14,10 +14,10 @@ function App() {
 <Routes>
   <Route path='/' element={<Home />} />
   <Route path='/login' element={<Login />} />
-  <Route path='/notfound' element={<Notfound />} />
+  <Route path='/*' element={<Notfound />} />
   <Route path='/products' element={<Products />} />
   <Route path='/signup' element={<Signup />} />
-  <Route path='/profile' element={<Profile />} />
+  <Route path='/profile' element={<UserProfile />} />
 </Routes>
     </div>
   );
