@@ -1,9 +1,5 @@
-const Notfound = () => {
-  return (
-    <div>
-      
-    </div>
-  );
-};
 
+const Notfound = () => {
+ 
+};
 export default Notfound;

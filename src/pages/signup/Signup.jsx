@@ -1,9 +1,5 @@
-const Signup = () => {
-  return (
-    <div>
-      
-    </div>
-  );
-};
 
+const Signup = () => {
+ 
+};
 export default Signup;
