@@ -5,6 +5,7 @@ import Signup from './pages/signup/Signup';
 import Notfound from './pages/notfound/Notfound';
 import Login from './pages/login/Login';
 import Home from './pages/Home/Home';
+import UserProfile from './pages/userProfile/UserProfile';
 import About from './pages/about/About';
 import Contact from './pages/contact/Contact';
 function App() {
@@ -20,8 +21,8 @@ function App() {
   <Route path='/login' element={<Login />} />
   <Route path='/*' element={<Notfound />} />
   <Route path='/signup' element={<Signup />} />
+  <Route path='/profile' element={<UserProfile />} />
 </Routes>
-
     </div>
   );
 };
