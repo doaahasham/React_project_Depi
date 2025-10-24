@@ -5,6 +5,7 @@ import Signup from './pages/signup/Signup';
 import Notfound from './pages/notfound/Notfound';
 import Login from './pages/login/Login';
 import Home from './pages/Home/Home';
+import Profile from './pages/profile/profile';
 function App() {
   const [count, setCount] = useState(0)
 
@@ -16,8 +17,8 @@ function App() {
   <Route path='/notfound' element={<Notfound />} />
   <Route path='/products' element={<Products />} />
   <Route path='/signup' element={<Signup />} />
+  <Route path='/profile' element={<Profile />} />
 </Routes>
-
     </div>
   );
 };
